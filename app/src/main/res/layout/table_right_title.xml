@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/merge_sales"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_table_title_0"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:gravity="center|right"
+        android:maxLines="2"
+        android:text="内容"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tv_table_title_1"
+        style="@style/TextView_Table_Right"
+        android:text="内容" />
+
+    <TextView
+        android:id="@+id/tv_table_title_2"
+        style="@style/TextView_Table_Right"
+        android:text="内容" />
+
+    <TextView
+        android:id="@+id/tv_table_title_3"
+        style="@style/TextView_Table_Right"
+        android:text="内容" />
+
+    <TextView
+        android:id="@+id/tv_table_title_4"
+        style="@style/TextView_Table_Right"
+        android:text="内容" />
+
+    <TextView
+        android:id="@+id/tv_table_title_5"
+        style="@style/TextView_Table_Right"
+        android:text="内容" />
+
+    <TextView
+        android:id="@+id/tv_table_title_6"
+        style="@style/TextView_Table_Right"
+        android:text="内容"/>
+
+    <TextView
+        android:id="@+id/tv_table_title_7"
+        style="@style/TextView_Table_Right"
+        android:text="内容" />
+
+    <TextView
+        android:id="@+id/tv_table_title_8"
+        style="@style/TextView_Table_Right"
+        android:text="内容" />
+
+    <TextView
+        android:id="@+id/tv_table_title_9"
+        style="@style/TextView_Table_Right"
+        android:text="内容"/>
+
+    <TextView
+        android:id="@+id/tv_table_title_10"
+        style="@style/TextView_Table_Right"
+        android:text="内容" />
+
+    <TextView
+        android:id="@+id/tv_table_title_11"
+        style="@style/TextView_Table_Right"
+        android:text="内容"/>
+
+    <TextView
+        android:id="@+id/tv_table_title_12"
+        style="@style/TextView_Table_Right"
+        android:text="内容" />
+
+
+</LinearLayout>

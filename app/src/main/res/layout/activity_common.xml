@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <!-- 此部分是标题部分 -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <!-- 左侧标题的父容器 -->
+
+        <TextView
+                android:id="@+id/tv_table_title_left"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:text="标题"
+                android:textSize="12dp"/>
+
+        <!-- 右侧标题的父容器可实现水平滚动 -->
+        <com.wukangjie.tablescrollview.common.SyncHorizontalScrollView
+                android:id="@+id/title_horsv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="none">
+
+            <LinearLayout
+                    android:id="@+id/right_title_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                <!--顶部标题-->
+                <include layout="@layout/table_right_title"/>
+
+            </LinearLayout>
+        </com.wukangjie.tablescrollview.common.SyncHorizontalScrollView>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+            android:id="@+id/pull_refresh_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <!-- 左侧内容的父容器 -->
+            <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/left_container_listview"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"/>
+
+            <!-- 右侧内容的父容器 实现水平滚动 -->
+            <com.wukangjie.tablescrollview.common.SyncHorizontalScrollView
+                    android:id="@+id/content_horsv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fillViewport="true"
+                    android:scrollbars="none">
+
+                <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/right_container_listview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:background="#ffffff"
+                        android:scrollbars="none"/>
+
+            </com.wukangjie.tablescrollview.common.SyncHorizontalScrollView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

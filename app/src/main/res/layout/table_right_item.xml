@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+    <TextView
+            android:id="@+id/tv_table_content_right_item0"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:gravity="right|center"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            tools:text="--"/>
+
+    <TextView
+            android:id="@+id/tv_table_content_right_item1"
+            style="@style/TextView_Table_Right1"
+            tools:text="--"/>
+
+    <TextView
+            android:id="@+id/tv_table_content_right_item2"
+            style="@style/TextView_Table_Right1"
+            tools:text="--"/>
+
+    <TextView
+            android:id="@+id/tv_table_content_right_item3"
+            style="@style/TextView_Table_Right1"
+            tools:text="--"/>
+
+    <TextView
+            android:id="@+id/tv_table_content_right_item4"
+            style="@style/TextView_Table_Right1"
+            tools:text="--"/>
+
+    <TextView
+            android:id="@+id/tv_table_content_right_item5"
+            style="@style/TextView_Table_Right1"
+            tools:text="--"/>
+
+    <TextView
+            android:id="@+id/tv_table_content_right_item6"
+            style="@style/TextView_Table_Right1"
+            tools:text="--"/>
+
+    <TextView
+            android:id="@+id/tv_table_content_right_item7"
+            style="@style/TextView_Table_Right1"
+            tools:text="--"/>
+
+    <TextView
+            android:id="@+id/tv_table_content_right_item8"
+            style="@style/TextView_Table_Right1"
+            tools:text="--"/>
+
+    <TextView
+            android:id="@+id/tv_table_content_right_item9"
+            style="@style/TextView_Table_Right1"
+            tools:text="--"/>
+
+    <TextView
+            android:id="@+id/tv_table_content_right_item10"
+            style="@style/TextView_Table_Right1"
+            tools:text="--"/>
+
+    <TextView
+            android:id="@+id/tv_table_content_right_item11"
+            style="@style/TextView_Table_Right1"
+            tools:text="--"/>
+
+    <TextView
+            android:id="@+id/tv_table_content_right_item12"
+            style="@style/TextView_Table_Right1"
+            tools:text="--"/>
+
+
+</LinearLayout>

@@ -8,4 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextView_Table_Right1">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextView_Table_Right">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">right|center</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
 </resources>
